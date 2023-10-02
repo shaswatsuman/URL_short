@@ -2,7 +2,7 @@ const { MongoClient } = require("mongodb");
 const ShortUrl = require("./models/shortUrl");
 
 
-const uri = "mongodb://shaswatsameer:Pamas%40123@ac-ixy8clv-shard-00-00.jvffmgj.mongodb.net:27017,ac-ixy8clv-shard-00-01.jvffmgj.mongodb.net:27017,ac-ixy8clv-shard-00-02.jvffmgj.mongodb.net:27017/?ssl=true&replicaSet=atlas-113xiq-shard-0&authSource=admin&retryWrites=true&w=majority&ssl=true";
+const uri = "mongodb+srv://shaswatsuman25:<password>@cluster0.yyigjwq.mongodb.net/?retryWrites=true&w=majority"; //you can use your own cluster to connect
 
 let client = new MongoClient(uri);
 
